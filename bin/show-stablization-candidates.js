@@ -120,7 +120,7 @@ function buildGitLog(commits) {
     }
     log += item.desc
   }
-  return `<code>${log.trim()}</code>`
+  return log.trim()
 }
 
 // Generate markdown table for all schemas + revision details
@@ -139,7 +139,7 @@ function generateMarkdownTable(schemaDetailMap) {
         date_nontrivial = commit.date
       }
     }
-    md += `|${schema}|${details.latest.status}|${date_state}|${date_nontrivial}|${buildGitLog(details.commits)}|\n`
+    md += `|\`${schema}\`|${details.latest.status}|${date_state}|${date_nontrivial}|${buildGitLog(details.commits)}|\n`
   }
   return md
 }
