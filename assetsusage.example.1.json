@@ -1,0 +1,48 @@
+{
+   "product":"Campaign",
+   "productName":"My Campaign",
+   "productId":"1234",
+   "messageId": "message_id1",
+   "deliveryId": "12345",
+   "channel":"email",
+   "assets":[
+      {
+         "repoId": "CompanyDesignsRepository",
+         "assetId":"urn:aaid:sc:VA7:0bc31bc0-e935-4922-8d1b-4b7b32ef07e6",
+         "linkId":"Link-1"
+      },
+      {
+         "repoId": "CompanySalesRepository",
+         "assetId":"urn:aaid:sc:VA7:0bc31bc0-e935-4922-8d1b-4b7b32ef07e5",
+         "linkId":"Link-2"
+      }
+   ],
+   "audiences":[
+      {
+         "audienceId":"Audience One",
+         "audienceSize": 10000 
+      },
+      {
+         "audienceId":"Audience Two",
+         "audienceSize": 20000
+      },
+      {
+         "audienceId":"Audience Three",
+         "audienceSize": 30000
+      }
+   ],
+   "regions":[
+      {
+         "region":"US",
+         "assetId": "urn:aaid:sc:VA7:0bc31bc0-e935-4922-8d1b-4b7b32ef07e6"
+      },
+      {
+         "region":"EUROPE",
+         "assetId":"urn:aaid:sc:VA7:0bc31bc0-e935-4922-8d1b-4b7b32ef07e5"
+      },
+      {
+         "region":"APAC",
+         "assetId":"urn:aaid:sc:VA7:0bc31bc0-e935-4922-8d1b-4b7b32ef07e5"
+      }
+   ]
+ }
